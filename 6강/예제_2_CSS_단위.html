@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* html {
+            font-size: 32px;
+        } */
+        body {
+            font-size: 32px;
+
+        }
+        div {
+            /* 부모값의 2배 크기로 나타난다. */
+            font-size: 2em;
+        }
+        #hello {
+            /* root(제곱근이 아니라 루트권한의 루트이다. html 기준으로 em 계산을 한다.) em */
+            font-size: 2rem;
+        }
+        .parent {
+            height: 100vh; /* 부모가 크기가 정해져있지 않으면 % 계산을 했을 시에 아무것도 출력되지 않는다. */
+            width: 100%; /* 부모 크기의 비율 */
+            background: rgb(201, 179, 125);
+        }
+        .child {
+            height: 50%;
+            width: 60%;
+            background: rgb(92, 170, 206);
+        }
+    </style>
+</head>
+<body>
+    <div>안녕하세요</div>
+    <div id="hello">안녕하세요</div>
+    <div class="parent">
+        <div class="child"></div>
+
+    </div>
+
+</body>
+</html>

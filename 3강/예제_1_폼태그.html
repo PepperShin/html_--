@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <form action="google.com" method="get">
+            이름 : <input type="text" name="uname" /><br />
+
+            아이디 : <input type="text" name="uid" /><br />
+
+            비밀번호 : <input type="password" name="upw" /><br /> 
+            <!-- password는 입력한 값이 *로 표시된다. -->
+
+            연락처 : <input type="text" name="uphone1" size="5"/> - 
+            <input type="text" name="uphone2" size="5"/> - 
+            <input type="text" name="uphone3" size="5"/><br />
+
+            사진 : <input type="file" name="uphoto" /><br /> 
+            <!-- file은 파일을 업로드 할 수 있는 버튼이 생성된다. -->
+
+            성별구분 : <input type="radio" name="gender" value="m" />남 
+            <input type="radio" name="gender" value="w" />여<br /> 
+            <!-- radio는 여러개의 버튼 중 하나만 선택할 수 있다. name이 같아야 한 그룹으로 묶인다. -->
+
+            사용언어 : <input type="checkbox" name="lang" value="한국어" />한국어
+            <input type="checkbox" name="lang" value="영어" />영어
+            <input type="checkbox" name="lang" value="일본어" />일본어
+            <input type="checkbox" name="lang" value="중국어" />중국어<br /> 
+            <!-- checkbox는 여러개의 버튼을 선택할 수 있다. -->
+
+            자기소개 :
+            <textarea name="intro" cols="30" rows="5">간단하게 입력</textarea><br />
+            국적 : <select>
+                    <option value="kor">한국</option>
+                    <option selected value="usa">미국</option>
+                    <option value="japan">일본</option>
+                    <option value="china">중국</option>
+                </select><br />
+
+            좋아하는 음식 : <select multiple="multiple">
+                <!-- 컨트롤 눌러서 두개 선택 가능 -->
+                <option>김치</option>
+                <option>불고기</option>
+                <option>파전</option>
+                <option>비빔밥</option>
+            </select><br />
+
+            <input type="submit" value="전송" />
+        </form>
+    </body>
+</html>

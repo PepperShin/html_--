@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style> /* 스타일 태그는 어디에 오든 상관이 없지만, 가급적이면 헤드 태그 안에 넣자. */
+    #header {
+        background: orange;
+        width: 500px;
+        text-align: center;
+        border: 3px solid red; /* 경게선 선 */
+    }
+
+    #wrap {
+        width: 500px;
+        text-align: center;
+        border: 3px solid red;
+    }
+
+    #footer {
+        background: green;
+        width: 500px;
+        text-align: center;
+        border: 3px solid red;
+    }
+
+    .menu {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    
+</style>
+
+
+<body>
+    <div id="header"> 
+        <!-- id를 할당하여 style 태그에서 원하는 id를 가진 태그에 속성을 부여할 수 있다. -->
+        <h1>헤더</h1>
+    </div>
+
+    <div id="wrap">
+        <div id="content">
+            <h1>콘텐츠</h1>
+            <ul>
+                <!-- id는 css에서는 겹쳐도 상관없지만, 자바 스크립트에서 객체를 빼올때 제일 위에 하나만 빼오게 된다.-->
+                <!-- 그래서 동일한 이름으로 지을때는 class로 지어줘야 한다. -->
+                <li class="menu">메뉴1</li>
+                <li class="menu">메뉴2</li>
+                <li class="menu">메뉴3</li>
+                <li class="menu">메뉴4</li>
+                <li class="menu">메뉴5</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <h1>꼬리말</h1>
+    </div>
+</body>
+</html>
