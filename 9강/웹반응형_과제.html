@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #body{
+            width: 960px;
+            height: 1080px;
+            margin: 0 auto;
+            border: 1px solid #cccccc;
+            box-sizing: border-box;
+        }
+
+        header{
+            width: 100%;
+            height: 25%;
+            background: url('images/bg.png') no-repeat ;
+            background-size: cover;
+            position: relative;
+        }
+        header h1{
+            text-align: right;
+            margin-right: 20px;
+            margin-top: 0;
+            position: relative;
+            top: 45%;
+            color: #ffc;
+            text-shadow: 1px 2px 2px #000;
+            font-size: 2.5em;
+        }
+        header h2{
+            text-align: right;
+            margin-right: 20px;
+            position: relative;
+            top: 40%;
+            color: yellow;
+            font-size: 1.8em;
+        }
+
+        nav{
+            width: 100%;
+            height: 60px;
+            background-color: #271717;
+        }
+
+        nav a{
+            margin: 0 30px;
+            line-height: 40px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        nav a:nth-child(1){
+            margin-left: 80px;
+        }
+
+        main{
+            width: 76%;
+            height: 600px;
+            padding: 10px;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        main h3{
+            font-size: 1.3em;
+        }
+
+        main p{
+            font-size: 0.9em;
+        }
+
+        main p:nth-child(2){
+            font-size: 1em;
+            font-weight: bold;
+        }
+        main p:nth-child(5){
+            margin: 0;
+        }
+        main p:nth-child(6){
+            margin-top: 0;
+        }
+
+        aside{
+            width: 24%;
+            height: 600px;
+            padding: 10px;
+            float: right;
+            background-color: rgba(131, 255, 127, 0.3);
+            box-sizing: border-box;
+        }
+
+        aside img{
+            margin-top: 10px;
+            width: 100%;
+            opacity: 0.3;
+        }
+
+        footer{
+            clear: both;
+            width: 100%;
+            height: 150px;
+            background-color: darkgreen;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        footer p:nth-child(1){
+
+            position: relative;
+            top: 23px;
+        }
+        footer p:nth-child(2){
+            position: relative;
+            top: 23px;
+        }
+        footer p:nth-child(3){
+            position: relative;
+            top: 23px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="body">
+        <header>
+            <h1>Joandora</h1>
+            <h2>가장 제주다운 수산리집</h2>
+        </header>
+
+        <nav>
+            <a href="#">이용 안내</a>
+            <a href="#">객실 소개</a>
+            <a href="#">예약 방법</a>
+            <a href="#">예약 하기</a>
+        </nav>
+
+        <main>
+            <h3>요안도라 소개</h3>
+            <p>¤ 요안도라는 게스트 하우스(Guest House) 형식의 농어촌 민박입니다</p>
+            <p>성산의 날씨는 다음주 내내 높은 구름에 햇살 가득이라고 합니다. 목요일이면 섭씨 27도까지 오른다고 하지만, 늘 부는 바람이 쾌적한 균형을 잡아 마당에 마당에 나가 앉아 있는 시간이 많아질듯 합니다.
+            <p>오늘은 사진에 보이는 긴 돌담을 따라 들어오는 요안도레 올레 입구에 특곤색의 대문을 달았습니다.</p>
+            <p>내일은 두달 여동안 밖거리에 만든 데스트 하우스에 연백색의 황토 페인트를 칠할 예정입니다. </p>
+            <p>그리고 이것저것 사소한 저이를 마치고 나면, 나이 드시고 젊고 한 미지의 새식구들을 설렘으로 만나고 함께하고, 도시의 바븐 생활로 소원해진 오래된 친구와의 우정을 이 제주에서 새롭게 열어나가기 위해 요안도라를 세상에 알리려고 합니다.</p>
+
+            <img src="images/banner2.png" alt="">
+        </main>
+        <aside>
+            <p style="font-weight: bold;">¤ 알립니다</p>
+            <p style="font-size: 0.9em;">게스트하우스 예약은 전화 070-###-#### 로 직접 통화하시는게 가장 정확하고 빠릅니다. 인터넷 전화이므로 시외 전화 요금이 부과되지 않습니다</p>
+            <img src="images/joandora3.jpg" alt="">
+            <img src="images/joandora1.jpg" alt="">
+            <img src="images/joandora2.jpg" alt="">
+        </aside>
+    
+        <footer>
+            <p><i>제주특별자치도 남제주군 성산읍 수산리 000 번지 요안도라</i></p>
+            <p><i>yoan##@naver.com</i></p>
+            <p>Copyright ©. All rights reserved.</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

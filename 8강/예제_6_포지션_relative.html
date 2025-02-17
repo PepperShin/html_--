@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* 원래 있어야 할 곳에서 위치 이동 */
+        #red{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        #yellow{
+            width: 400px;
+            height: 400px;
+            position: relative;
+            top: 100px;
+            left: 100px;
+            background-color: yellow;
+        }
+        #green{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            position: relative;
+            top: 0;
+            left: 100px;
+        }
+        #blue{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: relative;
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="red"></div>
+    <div id="yellow">
+        <div id="green"></div>
+        <div id="blue"></div>
+    </div>
+</body>
+</html>
